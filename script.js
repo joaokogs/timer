@@ -27,7 +27,9 @@ function parar(){
     sec=0
     min=0
     document.querySelector('#tempo').innerText='00:00.00';
+    document.querySelector('.pause').style.display = 'none';
     document.querySelector('.start').style.display = '';
+
 }
 function timer(){
         mili++

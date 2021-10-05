@@ -37,7 +37,12 @@ button{
     height: 40px;
     background: #212529;
     cursor: pointer;
-    font-size: 1.2em;
+    padding-top: 3px;
+}
+button img{
+    width: 24px;
+    height: 24px;
+    text-align: center;
 }
 .start{
     background: #42f57e;
@@ -48,3 +53,4 @@ button{
 .stop{
     background: #f54242;
 }
+
